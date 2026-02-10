@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+  font-family: "Permanent Marker", cursive;
+ font-weight: 400;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://static.vecteezy.com/system/resources/thumbnails/009/378/602/small_2x/panoramic-background-of-indonesia-s-beautiful-natural-scenery-morning-view-with-sunrise-over-the-mountain-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#today{
+    color: #ffff;
+    font-size: 4rem;
+}
+
+#time{
+
+        color: #ffff;
+    font-size: 4rem;
+}#date{
+        color: #ffff;
+    font-size: 4em;
+}
